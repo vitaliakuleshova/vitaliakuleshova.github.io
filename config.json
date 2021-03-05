@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://i.pinimg.com/236x/5c/e8/69/5ce869441a333fe2105209285ceec457.jpg",
+    "link": "https://vk.com/kvitanciaa",
+    "text": "Виталия Кулешова"
+  },
+  "text": {
+    "more": "",
+    "intro": "Граф, с помощью которого можно увидеть, как мои друзья связаны между собой. В отделе \"статистика\" запускала модулярность. ",
+    "title": "Граф, состоящий из моих друзей в ВК и показывающий связь между ними."
+  },
+  "legend": {
+    "edgeLabel": "связь",
+    "colorLabel": "Становится синее с увеличением модулярности",
+    "nodeLabel": "имя друга в ВК"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
